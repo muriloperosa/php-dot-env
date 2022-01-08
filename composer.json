@@ -1,7 +1,7 @@
 {
     "name": "murilo-perosa/dot-env",
     "description": "Load .env files.",
-    "keywords": ["dot-env",],
+    "keywords": ["dot-env"],
     "type": "library",
     "license": "MIT",
     "autoload": {
