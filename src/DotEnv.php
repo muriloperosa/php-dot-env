@@ -61,6 +61,13 @@ class DotEnv
         }
     }
 
+    /**
+     * Returns value from .env
+     *
+     * @param string $key
+     * @param string|null $default
+     * @return string|null
+     */
     public static function get (string $key, $default = null) : ?string
     {
         $res = getenv($key);
