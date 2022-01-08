@@ -5,7 +5,7 @@ Simple library to load and get values from `.env` file(s).
 ## Install
 
 ```bash
-...
+composer require murilo-perosa/dot-env
 ```
 
 ## How to Use
