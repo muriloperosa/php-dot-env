@@ -16,7 +16,7 @@ class DotEnv
      *
      * @param string $path
      */
-    public function __construct (string $path)
+    public function __construct ($path)
     {
         if (!file_exists($path)) 
         {
@@ -31,7 +31,7 @@ class DotEnv
      *
      * @return void
      */
-    public function load () : void
+    public function load ()
     {
         if (!is_readable($this->path)) 
         {
@@ -68,9 +68,9 @@ class DotEnv
      * @param string|null $default
      * @return string|null
      */
-    public static function get (string $key, $default = null) : ?string
+    public static function get ($key, $default = null)
     {
         $res = getenv($key);
-        return $res ?: $default;
+        return $res ? $res : $default;
     }
 }
