@@ -18,6 +18,7 @@ use MuriloPerosa\DotEnv\DotEnv;
 
 ### Load File
 ```php
+// enter path to .env file
 (new DotEnv(__DIR__ . '/../.env'))->load();
 ```
 
