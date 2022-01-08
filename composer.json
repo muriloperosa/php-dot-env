@@ -1,6 +1,7 @@
 {
     "name": "murilo-perosa/dot-env",
     "description": "Load .env files.",
+    "keywords": ["dot-env",],
     "type": "library",
     "license": "MIT",
     "autoload": {
@@ -14,5 +15,7 @@
             "email": "perosamurilo@gmail.com"
         }
     ],
-    "require": {}
+    "require" : {
+        "php" : ">=5.1.0"
+    }
 }
