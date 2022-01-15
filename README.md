@@ -1,11 +1,16 @@
 # PHP DotEnv Loader
 
+[![Latest Stable Version](http://poser.pugx.org/murilo-perosa/dot-env/v)](https://packagist.org/packages/murilo-perosa/dot-env) 
+[![Total Downloads](http://poser.pugx.org/murilo-perosa/dot-env/downloads)](https://packagist.org/packages/murilo-perosa/dot-env) 
+[![License](http://poser.pugx.org/murilo-perosa/dot-env/license)](https://packagist.org/packages/murilo-perosa/dot-env) 
+[![PHP Version Require](http://poser.pugx.org/murilo-perosa/dot-env/require/php)](https://packagist.org/packages/murilo-perosa/dot-env)
+
 Simple library to load and get values from `.env` file(s).
 
 ## Install
 
 ```bash
-...
+composer require murilo-perosa/dot-env
 ```
 
 ## How to Use
