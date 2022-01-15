@@ -12,7 +12,7 @@ class DotEnv
     protected $path;
 
     /**
-     * Intance DotEnv.php
+     * Instance DotEnv.php
      *
      * @param string $path
      */
@@ -65,10 +65,10 @@ class DotEnv
      * Returns value from .env
      *
      * @param string $key
-     * @param string|null $default
-     * @return string|null
+     * @param string|bool $default
+     * @return string|bool
      */
-    public static function get ($key, $default = null)
+    public static function get ($key, $default = false)
     {
         $res = getenv($key);
         return $res ? $res : $default;
